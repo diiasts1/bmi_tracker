@@ -14,7 +14,7 @@ class MySimpleProjectTests(unittest.TestCase):
         self.assertEqual(self.test_user.name, "Nurasyl")
         self.assertEqual(self.test_user.height, 1.80)
 
-    # Test 2: Chek if BMI math works fine
+    # Test 2: Check if BMI math works fine
     def test_bmi_math(self):
         self.test_user.add_new_weight(81.0)
         self.assertEqual(len(self.test_user.history), 1)
