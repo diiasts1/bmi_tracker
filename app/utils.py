@@ -1,6 +1,6 @@
 import re
 
-# Custom Decorator to print messages before functions
+# Custom Decorator to print messages before function
 def my_logger(func):
     def wrapper(*args, **kwargs):
         print(f"[System Log] Now working on: {func.__name__}")

@@ -14,7 +14,7 @@ class User(Person):
     def __init__(self, name, height):
         super().__init__(name)
         self.__height = height  # Private attribute
-        self.history = []       # List collection to store weight records
+        self.history = []       # List collection to store weight record
 
     @property
     def height(self):
